@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;}
+.clear{
+    clear: both;
+}
+.inicio{
+    height: 950px;
+    background-image: url(../images/angel.jpg);
+    background-size: cover;
+    color: #FFF;
+    font-size: 200px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.segundo{
+    padding: 200px;
+}
+.tercero{
+    padding: 200px;
+}
+.segundo section{
+    float: left;
+    width: 40%;
+    margin: 100px;
+
+}
+.tercero section{
+    float: right;
+    width: 40%;
+    margin: 100px;
+
+}
+.cuarto section{
+    float: right;
+    width: 40%;
+    margin: 140px;
+    color: #FFF;
+}
+.cuarto{
+    background-image: url(../images/raptis.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 780px;
+}
+.degradado{
+    background: linear-gradient(to left, #FA5C65 80%, #DD197E);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+section p{
+    font-size: 25px;
+}
+section h2{
+    font-size: 70px;
+    margin-bottom: 50px;
+}
+input{
+    margin: 30px 0;
+    border-radius: 35px;
+    padding: 15px 70px;
+    background-color: #fd4c5c;
+    border: none;
+    font-size: 20px;
+    color: #FFF;
+    margin-top: 40px;
+}
+
+footer{
+    height: 450px;
+    background-color: #fd4c5c;
+    color: #FFF;
+}
+
+table{
+    width: 80%;
+    margin: 0 5%;
+    padding: 80px;
+    border-bottom:1px #FFF solid;
+}
+
+th{
+    text-align: left;
+    width: 20%;
+    padding-bottom: 50px;
+}
+
+footer p{
+    margin: 30px 100px;
+    font-size: 13px;
+    float: left;
+}
+
+.correo{
+    float: right;
+    font-size: 13px;
+    margin: 30px 300px 30px 0;
+
+}
+
+
+
+
+
+
